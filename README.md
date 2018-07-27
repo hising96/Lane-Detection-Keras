@@ -7,8 +7,7 @@ We have uploaded two files in our code i.e. CNNmodel.py and lanes.py. CNNmodel.p
 The next file lanes.py deploys the model.h5 file and draws lanes for any never before seen video. This file takes in an input video in any standard video format and then predicts lane lines and then prepares and output video in any video format desired by the user. 
 
 Pickling
-We have used serialization in python to pickle the datasets and its corresponding labels.
-
+We have used serialization in python to pickle the datasets and its corresponding labels. We have include topickle.py file to pickle their datasets and corresponding labels to .p files.
 
 
 Lane Detection as the name suggests identifies and marks the lanes on the road so as to assist vehicular movements. Lane Detection even has the capability of guiding blind drivers to a certain extent by helping them navigate in particular lanes and applying brakes when the lane marked area before the car falls less than a predefined value based on the size of the vehicle. One of the major challenges faced is one of different road and weather conditions which we have taken up and tried to solve. There is no effect of illumination changes and road surfaces in the final predicted lane output.
