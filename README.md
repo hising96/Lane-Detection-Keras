@@ -31,9 +31,9 @@ We have taken several layers in our code from the convolution, deconvolution, po
 
 **Results and Analysis**
 
-We have taken a deep learning route in which we have laid out several keras sequential layers and tried to build a model using the same. Training and testing is done on the model and features are extracted from the road images. We have laid out several convolution, de-convolution and pooling layers and developed a FCN based architecture which is known to work best on image data. We have achieved an overall accuracy of 96.34 per cent.
+We have taken a deep learning route in which we have laid out several **keras sequential layers** and tried to build a model using the same. Training and testing is done on the model and features are extracted from the road images. We have laid out several convolution, de-convolution and pooling layers and developed a FCN based architecture which is known to work best on image data. We have achieved an overall accuracy of 96.34 per cent.
 
-Our model is a part of ADAS (automatic driver assistance systems) that can very easily help drivers to be safe and keep other safe too. Our model can be built with other models like pedestrian detection, signboard analysis and traffic recognition to built a robust navigation systems. Ride hailing services can deploy our model in its core state or coupled with others to ensure safety for drivers as well as passengers. 
+Our model is a part of **ADAS (automatic driver assistance systems)** that can very easily help drivers to be safe and keep other safe too. Our model can be built with other models like pedestrian detection, signboard analysis and traffic recognition to built a robust navigation systems. Ride hailing services can deploy our model in its core state or coupled with others to ensure safety for drivers as well as passengers. 
 
 **Conclusion And Future Work**
 
@@ -41,4 +41,4 @@ One of the greatest advances we would like to bring on-board is the lane detecti
 To avoid excessive lane changing safety messages are displayed for constant lane changes if there is sufficient area in front of the vehicle thus preventing rash driving.
 
 During lane changing automatic lane changing headlights are turned on for other vehicles to notice and be safe.\\
-We would also like to improve upon our model in terms of RNN as it is known to work best in case of sequence inputs. Lanes on roads have a sequence data form. RNN can work pretty well in this case of input.
+We would also like to improve upon our model in terms of **RNN** as it is known to work best in case of sequence inputs. Lanes on roads have a sequence data form. RNN can work pretty well in this case of input.
